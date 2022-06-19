@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    background-color: black;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.header-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.header-link {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-style: italic;
+    margin: 40px auto;
+    padding: 80px;
+}
+
+a:hover {
+    color: chocolate;
+    margin: -1px;
+}
+
+h1 {
+    color: antiquewhite;
+    text-shadow: beige;
+}
+
+p {
+    color: white;
+    text-shadow: blanchedalmond;
+}
+
+.about-us {
+    padding-top: 100px;
+}
+
+.wrapper {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.v-about-us {
+    margin-left: 50px;
+    width: 50%;
+}
+
+.info {
+    padding: 50px 100px;
+}
+
+/*slides*/
+
+.services {
+    background-color: aqua
+}
+
+.text {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.slider {
+    margin-left: 400px;
+    width: 40%;
+    height: 50%;
+    overflow: hidden;
+    ;
+
+}
+
+.slider-line {
+    display: flex;
+
+    transition: all ease 1s;
+}
+
+.our-services {}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 100px;
+}
+
+.button slider-prev {
+    background: none;
+    border: 1px solid black;
+    padding: 30px 40px;
+    font-size: .9rem;
+
+}
+
+button:hover {
+    background: rgb(119, 85, 18);
+}
+
+button:active {
+    background: #000;
+    color: #fff;
+}
+
+
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    flex-direction: row;
+}
+
+.map {
+    width: 400px;
+    height: 200px;
+}
+
+.inst-link {
+    text-decoration: none;
+    color: #fff;
+   align-items: center;
+   justify-content: center;
+}
